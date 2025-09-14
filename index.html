@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flixora - Stream Movies, Anime & Manga</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(to right, #8B5CF6, #3B82F6);
+        }
+        .dark-theme {
+            background-color: #1a202c; /* Dark gray */
+            color: #e2e8f0; /* Light gray text */
+        }
+        .btn-gradient {
+            background: linear-gradient(to right, #8B5CF6, #3B82F6);
+            transition: transform 0.2s ease-in-out;
+        }
+        .btn-gradient:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="dark-theme min-h-screen flex flex-col">
+
+    <!-- Header/Hero Section -->
+    <header class="relative flex-grow flex items-center justify-center text-center py-20 px-4">
+        <div class="absolute inset-0 gradient-bg opacity-20"></div>
+        <div class="relative z-10 max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+                Flixora - Stream Movies, Anime & Manga in One App
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8">
+                Download the latest APK below
+            </p>
+            <a href="https://github.com/Naveen-X/Flixora/releases/latest/download/flixora.apk"
+               class="btn-gradient text-white font-bold py-4 px-8 rounded-full text-lg inline-flex items-center shadow-lg hover:shadow-xl">
+                <i class="fas fa-download mr-3"></i> Download APK
+            </a>
+            
+        </div>
+    </header>
+
+    
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 text-center py-8 px-4 mt-auto">
+        <p>&copy; 2025 Flixora. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
